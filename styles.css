@@ -26,6 +26,12 @@ header {
           flex-direction: row;
 }
 
+@media screen and (max-width: 600px) {
+  .cabecario {
+    display: none;
+  }
+}
+
 .logo-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,6 +66,10 @@ nav ul li {
   font-weight: 500;
 }
 
+nav ul li:hover {
+  border-bottom: 05px solid blue;
+}
+
 .nav-cabecario {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,7 +99,6 @@ nav ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: blueviolet;
   width: 99.5%;
   height: 400px;
 }
@@ -111,6 +120,21 @@ video {
 
 .container-apz h1 {
   font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .container-apz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    direction: column;
+  }
+  .apresentacao {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    direction: column;
+  }
 }
 
 .apresentacao {
