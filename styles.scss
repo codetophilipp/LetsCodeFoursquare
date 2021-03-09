@@ -417,6 +417,20 @@ h2 {
   margin-left: 90px;
   margin-right: 100px;
   margin-top: 20px;
+  border-bottom: 10px solid blue;
+}
+
+.inner-city-places p:last-child:hover {
+  animation: mymove 2s;
+}
+
+@keyframes mymove {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: blue;
+  }
 }
 
 footer {
